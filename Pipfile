@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyterlab = "*"
+matplotlib = "*"
+scipy = "*"
+
+[packages]
+boltons = "*"
+h5py = "*"
+numpy = "*"
+opencv-python-headless = "*"
+tensorflow-gpu = "==1.15.*"
+toml = "*"
+tqdm = "*"
+
+[requires]
+python_version = "3.6"
